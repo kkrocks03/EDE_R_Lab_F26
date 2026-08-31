@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1: Introduction to Data Exploration"
-author: "Student Name"
+author: "Kassie Karnow"
 output: pdf_document
 ---
 
@@ -22,15 +22,18 @@ Enter answers to the questions just below the >Answer: prompt.
 
 1. What are your previous experiences with data analytics, R, and Git? Include both formal and informal training.
 
-> Answer: 
+> Answer:
+I have a lot of experience using Excel formally and informally. I've done one project for undergrad using R, but it was very basic. I completed a "python bootcamp" for a summer internship project. I have zero experience with Git
 
 2. Are there any components of the course about which you feel confident?
 
-> Answer: 
+> Answer:
+I do not feel overly confident on any aspect. I feel somewhat confident about the reverse learning style because I have done it previously.
 
 3. Are there any components of the course about which you feel apprehensive?
 
 > Answer: 
+I feel a bit apprehensive about being able to balance workload since I do not have a personal laptop I could use; I will have to figure out best times to use computers on campus.
 
 
 ## 2) GitHub
