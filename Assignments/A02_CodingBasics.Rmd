@@ -84,6 +84,7 @@ names(dataframe1) <- c("Name","Test Score","Scholarship"); View(dataframe1) #pro
 9.  QUESTION: How is this data frame different from a matrix?
 
 > Answer:
+This data frame is different from a matrix because it is less complex than a matrix. Additionally, both are two-dimensional, but a dataframe can be a mixture of elements and matrices are composed of one element type.
 
 10. Create a function with one input. In this function, use `if`...`else` to evaluate the value of the input: if it is greater than 50, print the word "Pass"; otherwise print the word "Fail".
 
@@ -95,21 +96,28 @@ names(dataframe1) <- c("Name","Test Score","Scholarship"); View(dataframe1) #pro
 
 ```{r basics 3}
 #10. Create a function using if...else
+#if (x > 50) {print("Pass")} else {print("Fail")}
 
 #11. Create a function using ifelse()
+#ifelse(x > 50, "Pass", "Fail")
 
 #12a. Run the first function with the value 52.5
+if (52.5 > 50) {print("Pass")} else {print("Fail")}
 
 #12b. Run the second function with the value 52.5
+ifelse(52.5 > 50, "Pass", "Fail")
 
 #13a. Run the first function with the vector of test scores
+#if (vector2 > 50) {print("Pass")} else {print("Fail")}
 
 #13b. Run the second function with the vector of test scores
+ifelse(vector2 > 50, "Pass", "Fail")
 ```
 
-14. QUESTION: Which option of `if`...`else` vs. `ifelse` worked? Why? (Hint: search the web for "R vectorization")
+14. QUESTION: Which option of `if`...`else` vs. `ifelse` worked? Why? (Hint: search the web for "ifelse(52.5 > 50, "Pass", "Fail")")
 
 > Answer:
+When using the vector of test scores, ifelse worked and if...else did not work. If...else provided the error that "the condition has length > 1. When researching this topic, I found that if...else uses scalar control flow, whereas ifelse uses vectorized data processing. This means that if...else runs everything in one go and provides a single true or false answer, whereas ifelse runs through each element individually in a dataset and will provide true/false for each individual element.
 
 ## Crafting reports - Part 4
 
