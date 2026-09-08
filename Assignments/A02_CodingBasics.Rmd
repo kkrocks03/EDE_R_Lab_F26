@@ -15,7 +15,7 @@ This exercise accompanies the lessons/labs in Environmental Data Explorations on
 
 ## Directions
 
-1.  Rename this file `<FirstLast>_A02_CodingBasics.Rmd` (replacing `<FirstLast>` with your first and last name).
+1.  Rename this file `KassieKarnow_A02_CodingBasics.Rmd` (replacing `<FirstLast>` with your first and last name).
 2.  Change "Student Name" on line 3 (above) with your name.
 3.  Work through the steps, **creating code and output** that fulfill each instruction.
 4.  Be sure to **answer the questions** in this assignment document.
@@ -79,7 +79,7 @@ vector1<-c("Kassie", "Kenneth", "Connor", "Kayla") #character vector
 vector2<-c(100,96,42,87) #numeric vector
 vector3<-c(TRUE,TRUE, FALSE, TRUE) #logical vector
 dataframe1 <- data.frame(vector1,vector2,vector3) #combining vectors into a single data frame
-names(dataframe1) <- c("Name","Test Score","Scholarship"); View(dataframe1) #providing titles for each vector in the data frame in the order that they appear 
+names(dataframe1) <- c("Name","Test Score","Scholarship") #View(dataframe1) #providing titles for each vector in the data frame in the order that they appear 
 
 ```
 
